@@ -11,7 +11,7 @@ public class XYZ_Bank_Tests {
 
 
     @Test
-    public void testOne() throws InterruptedException {
+    public void deposit250() throws InterruptedException {
         XYZ_Bank xyz_bank = new XYZ_Bank();
         xyz_bank.setPerp();
         String expUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
@@ -35,7 +35,7 @@ public class XYZ_Bank_Tests {
 
 
     @Test
-    public void testTow() throws InterruptedException, IOException {
+    public void userDeletionByAdminUser() throws InterruptedException, IOException {
         XYZ_Bank xyz_bank = new XYZ_Bank();
         xyz_bank.setPerp();
         xyz_bank.openSite("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
@@ -55,7 +55,7 @@ public class XYZ_Bank_Tests {
 
 
    @Test
-    public void testThree () throws InterruptedException {
+    public void addingNewCustomerByAdminUser() throws InterruptedException {
         XYZ_Bank xyz_bank = new XYZ_Bank();
         xyz_bank.setPerp();
         xyz_bank.openSite("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
@@ -74,7 +74,7 @@ public class XYZ_Bank_Tests {
 
 
 @Test
-    public void testFour() throws InterruptedException {
+    public void deposit1000Withdrawal250CheckAccount() throws InterruptedException {
     XYZ_Bank xyz_bank = new XYZ_Bank();
     xyz_bank.setPerp();
     xyz_bank.openSite("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
@@ -95,7 +95,7 @@ public class XYZ_Bank_Tests {
 
 
     @Test
-    public void testFive() throws InterruptedException {
+    public void urlCheckAfterAddingNewCustomer() throws InterruptedException {
         XYZ_Bank xyz_bank = new XYZ_Bank();
         xyz_bank.setPerp();
         xyz_bank.openSite("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
@@ -115,7 +115,7 @@ public class XYZ_Bank_Tests {
 
 
     @Test
-    public void testSix() throws InterruptedException {
+    public void accountCheckAfterTransfer1500() throws InterruptedException {
         XYZ_Bank xyz_bank =new XYZ_Bank();
         xyz_bank.setPerp();
         xyz_bank.openSite("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
